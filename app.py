@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Read the CSV file into a DataFrame
-car_data = pd.read_csv(r'C:\Users\aloan\Documents\vehicles_us\vehicles_us.csv')
+car_data = pd.read_csv('vehicles_us.csv')
 
 st.header('Vehicle Data Analysis')
 
